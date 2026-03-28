@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        font-family: Arial;
+        }
+        .container{
+            display:flex; 
+            flex-direction: column;   
+        }
+    .box{
+        padding: 20px;
+        background-color: light blue;
+        margin: 10px;
+    }
+    @media(min-width:768px){
+        .conatiner{
+            flex-direction:row;
+
+        }
+        
+    }
+    @media(min-width:1024px){
+        .box{
+            flex:1;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">section1</div>
+        <div class="box">section2</div>
+        <div class="box">section3</div>
+    </div>

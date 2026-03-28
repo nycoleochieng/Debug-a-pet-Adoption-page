@@ -1,0 +1,68 @@
+.Hero {
+    text-align: center;
+    background-color: beige;
+    padding: 20px;
+}
+.Hero, h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Hero, p{
+    font-family: cursive;
+    font-size: 30px;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.Navigation-Bar {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-top: 50px;
+    padding: 20px;
+    background-color:black ;
+    
+    font-size: 30px;
+    text-decoration:none;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+}
+p{
+    background-color: beige;
+}
+h2{
+    background-color: beige;
+}
+
+    body{
+        background-color: light blue ;
+    }
+
+button{
+padding: 15px;
+text-align: center;
+align-items: center;
+justify-content: center;
+border-radius: 25px;
+border: 2px solid maroon ;
+font-size: medium;
+margin-left: 500px;
+margin-bottom: 50px;
+}
+img{
+    height: 100vh;
+    width: 100vh;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+footer{
+    font-size: medium;
+    text-align: center;
+    
+}
